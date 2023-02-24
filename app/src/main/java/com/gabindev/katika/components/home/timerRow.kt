@@ -82,8 +82,8 @@ fun TimerRow() {
             Row(
                 horizontalArrangement = Arrangement.spacedBy(10.dp),
                 modifier = Modifier
-                    .padding(horizontal = 10.dp)
                     .padding(bottom = 10.dp)
+                    .padding(horizontal = 10.dp)
             ) {
                 ElevatedAssistChip(
                     onClick = { },
