@@ -13,6 +13,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.dokar.sheets.BottomSheet
 import com.dokar.sheets.BottomSheetState
 import com.gabindev.katika.providers.LocalSheetHome
@@ -44,14 +45,18 @@ fun HomeBottomSheet(sheetHome: BottomSheetState = LocalSheetHome.current) {
             )
 
             GroupButtons()
+            SelectTime()
 
             ElevatedButton(
                 onClick = { },
                 shape = RoundedCornerShape(15.dp),
-                modifier = Modifier
-                    .fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth(),
                 content = {
-                    Text(text = "Démarrer")
+                    Text(
+                        text = "DEMARRER",
+                        fontSize = 20.sp,
+                        modifier = Modifier.padding(vertical = 5.dp)
+                    )
                 }
             )
         }

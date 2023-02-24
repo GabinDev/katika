@@ -59,6 +59,7 @@ dependencies {
     implementation("androidx.compose.material3:material3:1.0.1")
     implementation("androidx.compose.material3:material3-window-size-class:1.0.1")
     implementation "io.github.dokar3:sheets:0.4.1"
+    implementation "com.marosseleng.android:compose-material3-datetime-pickers:0.6.2"
 
 
     implementation 'androidx.core:core-ktx:1.7.0'

@@ -307,7 +307,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/access_time_filled/baseline_access_time_filled_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/pause/baseline_pause_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -317,8 +317,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="access_time_filled_24" />
-                            <entry key="sourceFile" value="E:\PRO\ANDROID\LAB\katika" />
+                            <entry key="outputName" value="filled_pause" />
+                            <entry key="sourceFile" value="C:\Users\Tatiana\Downloads\joystick.svg" />
                           </map>
                         </option>
                       </PersistentState>
